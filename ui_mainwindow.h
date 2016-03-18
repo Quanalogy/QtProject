@@ -28,7 +28,7 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
-    QWidget *centralwidget;
+    QWidget *centralwidget, *firstTimeWidget;
     QGridLayout *gridLayout;
     QPushButton *pushButton;
     QSpacerItem *horizontalSpacer;
@@ -36,20 +36,25 @@ public:
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
+
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(800, 600);
+
+        //Define parents
+        firstTimeWidget = new QWidget(MainWindow);
         centralwidget = new QWidget(MainWindow);
-        centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         gridLayout = new QGridLayout(centralwidget);
-        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         pushButton = new QPushButton(centralwidget);
+
+        centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
 
-        gridLayout->addWidget(pushButton, 0, 0, 1, 1);
-
+        gridLayout->addWidget(pushButton, 0, 0, 1, 1); //position 0,0 and a layout of 2x2 because it is 0-based
+        // spacer filling the remaining space, so that the button won't be width wide, but just the width of the button
         horizontalSpacer = new QSpacerItem(698, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
         gridLayout->addItem(horizontalSpacer, 0, 1, 1, 1);

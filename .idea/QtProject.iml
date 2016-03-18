@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/QtProject-145c31cd/145c31cd/Debug/QtProject_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/QtProject-145c31cd/145c31cd/Debug/QtProject_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/QtProject-145c31cd/145c31cd/MinSizeRel/QtProject_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/QtProject-145c31cd/145c31cd/MinSizeRel/QtProject_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/QtProject-145c31cd/145c31cd/RelWithDebInfo/QtProject_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/QtProject-145c31cd/145c31cd/RelWithDebInfo/QtProject_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/QtProject-145c31cd/145c31cd/Release/QtProject_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/QtProject-145c31cd/145c31cd/Release/QtProject_automoc.cpp" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/ui_mainwindow.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Widget.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Widget.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MainWindow.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MainWindow.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MainWindow.cpp" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
